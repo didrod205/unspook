@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>unspook — reveal & remove invisible characters in your text</title>
+    <meta
+      name="description"
+      content="Paste text to instantly reveal and remove invisible, dangerous, and confusable Unicode: zero-width spaces, BOMs, bidi controls, homoglyphs, smart quotes & non-breaking spaces. 100% local, nothing uploaded."
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1>👻 unspook</h1>
+      <p class="tagline">
+        Reveal &amp; remove the <strong>invisible</strong>, <strong>dangerous</strong>, and
+        <strong>confusable</strong> characters hiding in your text.
+      </p>
+      <p class="privacy">🔒 100% local — your text never leaves your browser.</p>
+    </header>
+
+    <main>
+      <section class="toolbar">
+        <button id="sample" type="button">Load messy sample</button>
+        <button id="clear" type="button" class="ghost">Clear</button>
+        <div class="stats" id="stats" aria-live="polite"></div>
+      </section>
+
+      <div class="grid">
+        <section class="pane">
+          <div class="pane-head">
+            <h2>Your text</h2>
+          </div>
+          <textarea id="input" placeholder="Paste or type here…" spellcheck="false"></textarea>
+          <div class="pane-head">
+            <h2>What's hiding <span class="hint">(hover a chip for details)</span></h2>
+          </div>
+          <div id="highlight" class="highlight" aria-live="polite"></div>
+        </section>
+
+        <section class="pane">
+          <div class="pane-head">
+            <h2>Cleaned</h2>
+            <button id="copy" type="button">Copy</button>
+          </div>
+          <textarea id="output" readonly spellcheck="false"></textarea>
+
+          <div class="pane-head"><h2>Options</h2></div>
+          <div class="options" id="options"></div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <a href="https://github.com/didrod205/unspook">GitHub</a> ·
+      <a href="https://www.npmjs.com/package/unspook">npm</a> ·
+      <span>MIT</span> · <span>Zero dependencies</span>
+    </footer>
+
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>
