@@ -6,6 +6,12 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.1]
+
+### Changed
+
+- Docs only: sponsorship now points solely to Lemon Squeezy. No code changes.
+
 ## [0.1.0]
 
 ### Added
@@ -23,5 +29,6 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Free, local-only web app (deployed to GitHub Pages).
 - Zero runtime dependencies; ESM + CJS + TypeScript types.
 
-[Unreleased]: https://github.com/didrod205/unspook/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/didrod205/unspook/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/didrod205/unspook/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/didrod205/unspook/releases/tag/v0.1.0

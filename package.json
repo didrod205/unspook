@@ -1,6 +1,6 @@
 {
   "name": "unspook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Find & remove invisible, dangerous, and confusable characters hiding in your text — zero-width spaces, BOMs, bidi 'Trojan Source' controls, Unicode tag prompt-injection, homoglyphs, smart quotes & NBSP. Zero dependencies, runs locally.",
   "type": "module",
   "main": "./dist/index.js",
