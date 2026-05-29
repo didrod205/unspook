@@ -162,10 +162,7 @@ maddening invisible-character bug — or a security incident — please consider
 supporting it:
 
 - ⭐ **Star this repo** — free, and it genuinely helps others find it.
-- 💛 **[GitHub Sponsors](https://github.com/sponsors/didrod205)**
-- ☕ **[Buy Me a Coffee](https://www.buymeacoffee.com/didrod205)**
-- 🧋 **[Ko-fi](https://ko-fi.com/didrod205)**
-- 🍋 **[Lemon Squeezy](https://elab-studio.lemonsqueezy.com/checkout/buy/5d059b89-51d0-456b-b33a-ed56994f7010)**
+- 🍋 **[Sponsor via Lemon Squeezy](https://elab-studio.lemonsqueezy.com/checkout/buy/5d059b89-51d0-456b-b33a-ed56994f7010)** — one-time or recurring support.
 
 **Where your support goes:** keeping the character database current with new
 Unicode releases, expanding the homoglyph/confusables coverage, maintaining the
