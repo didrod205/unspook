@@ -5,7 +5,7 @@ import {
   type Category,
   type CleanOptions,
   type Finding,
-} from "../dist/index.js";
+} from "../src/index";
 
 const $ = <T extends HTMLElement>(id: string): T => document.getElementById(id) as T;
 
